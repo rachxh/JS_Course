@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Liner Gradient Generator</h1>
+    <form>
+      <input class="color1" type="color" name="color1" value="#00ff00" />
+      <input class="color2" type="color" name="color2" value="#fff700" />
+      <h2>Direction</h2>
+      <div>
+        <label for="bottom">To bottom</label>
+        <input
+          type="radio"
+          value="bottom"
+          name="direction"
+          id="bottom"
+          checked
+        />
+      </div>
+      <div>
+        <label for="top">To top</label>
+        <input type="radio" value="top" name="direction" id="top" />
+      </div>
+      <div>
+        <label for="right">To right</label>
+        <input type="radio" value="right" name="direction" id="right" />
+      </div>
+      <div>
+        <label for="left">To left</label>
+        <input type="radio" value="left" name="direction" id="left" />
+      </div>
+    </form>
+  </body>
+  <script src="main.js"></script>
+</html>

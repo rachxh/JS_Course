@@ -1,0 +1,10 @@
+label {
+  display: inline-block;
+  width: 100px;
+  margin: 10px 0;
+}
+button {
+  border: none;
+  background-color: orange;
+  padding: 10px;
+}

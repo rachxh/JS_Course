@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(to rgiht, white, yellow);
+}
+
+div {
+  display: block;
+  margin: 12px 0;
+}
+
+button {
+  background-color: rgb(147, 197, 147);
+  border-radius: 10%;
+  height: 30px;
+}
+
+.warning {
+  color: orange;
+}
+.normal {
+  color: green;
+}
+.danger {
+  color: red;
+}

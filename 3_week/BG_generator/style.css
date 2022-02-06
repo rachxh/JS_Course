@@ -1,0 +1,6 @@
+body {
+  background-image: linear-gradient(green, #fff700);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
